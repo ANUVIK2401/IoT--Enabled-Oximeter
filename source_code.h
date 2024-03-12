@@ -13,7 +13,7 @@
 float temperature, humidity, BPM, SpO2, bodytemperature;
  
 /*Put your SSID & Password*/
-const char* ssid = "Alexahome";  // Enter SSID here
+const char* ssid = "Anuhome";  // Enter SSID here
 const char* password = "12345678";  //Enter Password here
  
 dht DHT;
@@ -149,7 +149,6 @@ void handle_NotFound(){
   ptr +="</head>";
   ptr +="<body>";
   ptr +="<h1>ESP32 Patient Health Monitoring</h1>";
-  ptr +="<h3>www.how2electronics.com</h3>";
   ptr +="<div class='container'>";
   
   ptr +="<div class='data temperature'>";
